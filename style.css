@@ -1,0 +1,64 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+
+.header
+{
+    background-image: url(bild.jpeg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.huvudmeny
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.huvudmeny li, .personligSida li
+{
+    display: inline-block;
+}
+
+.huvudmeny li a, .personligSida li a 
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.huvudmeny li a:hover, .personligSida li a:hover 
+{
+    border: 1px solid white;
+}
+
+
+.pSida 
+{
+   
+    margin-left: 470px;
+}
+
+h1
+{
+    margin-top: 30px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+p{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    margin-top: 10px;
+}
+
+
